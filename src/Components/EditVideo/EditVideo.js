@@ -23,7 +23,7 @@ const Genres = [
   "Comedy",
   "Horror",
   "Romance",
-  "Top Rated",
+  "Top-Rated",
   "Drama,Action",
 ];
 
