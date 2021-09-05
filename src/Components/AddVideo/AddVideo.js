@@ -86,7 +86,7 @@ function AddVideo(props) {
         appearance: "success",
         autoDismiss: true,
       });
-      history.push("/dashboard");
+      history.push("/admin-dashboard");
     }, 1000);
   };
 

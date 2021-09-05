@@ -39,7 +39,7 @@ export default function ARow2() {
         });
 
         history.push({
-          pathname: "/dashboard",
+          pathname: "/admin-dashboard",
         });
       }
     } catch (e) {

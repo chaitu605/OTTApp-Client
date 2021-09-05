@@ -82,7 +82,7 @@ export default function AdminDashboard() {
         });
 
         history.push({
-          pathname: "/dashboard",
+          pathname: "/admin-dashboard",
         });
       }
     } catch (e) {

@@ -106,7 +106,7 @@ export default function EditVideo() {
         appearance: "success",
         autoDismiss: true,
       });
-      history.push("/dashboard");
+      history.push("/admin-dashboard");
     }, 1000);
   };
 

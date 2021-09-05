@@ -60,7 +60,11 @@ export default function Login() {
       const data = await loginUser(username, password);
       setUserData(dispatch, data);
       if (data.status === 200) {
-        history.push("/dashboard");
+        if (data.data.roles === "admin") {
+          history.replace("/admin-dashboard");
+        } else {
+          history.replace("/dashboard");
+        }
 
         addToast("Login Success", {
           appearance: "success",

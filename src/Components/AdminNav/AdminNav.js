@@ -44,9 +44,20 @@ export default function AdminNav() {
               </Link>
             </div>
 
-            <Button component={Link} to="/dashboard" color="inherit">
-              <Typography>Home</Typography>
-            </Button>
+            {role === "admin" ? (
+              <div>
+                <Button component={Link} to="/admin-dashboard" color="inherit">
+                  <Typography>Admin Dashboard</Typography>
+                </Button>
+              </div>
+            ) : (
+              <div>
+                <Button component={Link} to="/dashboard" color="inherit">
+                  <Typography>Home</Typography>
+                </Button>
+              </div>
+            )}
+
             <Button color="inherit">
               <Typography>{data}</Typography>
             </Button>
