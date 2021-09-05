@@ -9,11 +9,7 @@ import useStyles from "./styles";
 
 export default function SearchResults() {
   const history = useHistory();
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { handleSubmit } = useForm();
   const classes = useStyles();
   const [FilteredData, setFilteredData] = useState([]);
   const [Data, setData] = useState(true);

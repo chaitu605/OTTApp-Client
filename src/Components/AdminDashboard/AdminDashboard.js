@@ -26,11 +26,7 @@ import ARow5 from "./ARow5";
 import ARow6 from "./ARow6";
 
 export default function AdminDashboard() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { handleSubmit } = useForm();
   const classes = useStyles();
   const history = useHistory();
   const { addToast } = useToasts();

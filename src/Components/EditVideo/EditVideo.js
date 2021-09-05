@@ -36,7 +36,7 @@ export default function EditVideo() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [genre, setGenre] = useState("");
-  const [thumbnail, setThumbnail] = useState("");
+  // const [thumbnail, setThumbnail] = useState("");
   const [videoId, setVideoId] = useState("");
 
   useEffect(() => {
@@ -47,7 +47,7 @@ export default function EditVideo() {
           setTitle(res.data.title);
           setDescription(res.data.description);
           setGenre(res.data.genre);
-          setThumbnail(res.data.thumbnail);
+          // setThumbnail(res.data.thumbnail);
           setVideoId(res.data.videoId);
         })
         .catch((err) => {

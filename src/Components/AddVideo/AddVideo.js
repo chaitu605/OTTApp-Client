@@ -37,11 +37,7 @@ function AddVideo(props) {
   const [videoId, setVideoId] = useState("");
   const [thumbnail, setThumbnail] = useState("");
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { handleSubmit } = useForm();
 
   const handleInputChange = (e) => {
     e.preventDefault();
