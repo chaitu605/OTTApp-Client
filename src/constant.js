@@ -10,7 +10,7 @@ export const apis = {
   findById: `${url}/api/videos/get/`,
   updateById: `${url}/api/videos/update/`,
   deleteById: `${url}/api/videos/`,
-  fetchTopRated: `${url}/api/videos/Top Rated`,
+  fetchTopRated: `${url}/api/videos/Top-Rated`,
   fetchTvShows: `${url}/api/videos/Drama,Action`,
   fetchComedy: `${url}/api/videos/Comedy`,
   fetchAction: `${url}/api/videos/Action`,
