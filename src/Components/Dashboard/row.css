@@ -1,0 +1,25 @@
+.row {
+  color: white;
+  height: 230px;
+  margin-bottom: 20px;
+}
+
+.row_thumbnails {
+  overflow: hidden;
+}
+
+.row_thumbnail {
+  margin: 6px;
+  width: 280px;
+  height: 180px;
+  padding: 5px;
+  transition: transform 450ms;
+}
+
+.row_thumbnail:hover {
+  transform: scale(1.08);
+}
+
+.row6 {
+  margin-bottom: 10rem;
+}

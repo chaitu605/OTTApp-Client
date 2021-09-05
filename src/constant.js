@@ -1,0 +1,28 @@
+let url = `https://ottapp-server.herokuapp.com`;
+
+export const apis = {
+  login: `${url}/api/auth/signin`,
+  register: `${url}/api/auth/signup`,
+  googleSignIn: `${url}/api/auth/googlesignin`,
+  facebookSignIn: `${url}/api/auth/facebooksignin`,
+  upload: `${url}/api/videos/upload`,
+  all: `${url}/api/videos/all`,
+  findById: `${url}/api/videos/get/`,
+  updateById: `${url}/api/videos/update/`,
+  deleteById: `${url}/api/videos/`,
+  fetchTopRated: `${url}/api/videos/Top Rated`,
+  fetchTvShows: `${url}/api/videos/Drama,Action`,
+  fetchComedy: `${url}/api/videos/Comedy`,
+  fetchAction: `${url}/api/videos/Action`,
+  fetchHorror: `${url}/api/videos/Horror`,
+  fetchRomance: `${url}/api/videos/Romance`,
+  getVideo: `${url}/api/videos/getvideo`,
+  getComment: `${url}/api/comment/getcomment`,
+  saveComment: `${url}/api/comment/savecomment`,
+  getLikes: `${url}/api/likes/getlikes`,
+  getDislikes: `${url}/api/likes/getdislikes`,
+  upLike: `${url}/api/likes/uplike`,
+  unLike: `${url}/api/likes/unlike`,
+  upDislike: `${url}/api/likes/updislike`,
+  unDislike: `${url}/api/likes/undislike`,
+};
