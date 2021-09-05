@@ -55,7 +55,7 @@ export default function Row1() {
   return (
     <React.Fragment>
       <Container maxWidth="xl" className="row">
-        <h2>Top Rated</h2>
+        <h2>Top-Rated</h2>
         {videos !== null && videos.length ? (
           <Carousel responsive={responsive} swipeable={true}>
             {videos.map((item) => (
