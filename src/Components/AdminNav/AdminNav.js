@@ -39,7 +39,7 @@ export default function AdminNav() {
                 <img
                   className={classes.img}
                   src="https://fontmeme.com/permalink/210806/240d657b94f89dd474e899cb826c958f.png"
-                  alt="MEDIAFLIX LOGO"
+                  alt="MEDIAFLIX-LOGO"
                 />
               </Link>
             </div>
